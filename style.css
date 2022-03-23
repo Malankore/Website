@@ -1,0 +1,189 @@
+body {
+    color: #CFCFCF;
+}
+
+html { 
+    background: url(images/bg.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+hr{
+    border: none;
+    height: 1px;
+    /* Set the hr color */
+    color: #333; /* old IE */
+    background-color: #333; /* Modern Browsers */
+}
+
+.hr2{
+    border: none;
+    height: 1px;
+    /* Set the hr color */
+    color: rgb(150, 150, 150); /* old IE */
+    background-color: rgb(150, 150, 150); /* Modern Browsers */
+}
+
+#image,#profile-photo{
+    width: 60%;
+    border-radius: 50%;
+    border: 3px solid #555;
+    box-shadow: 3px 3px 4px black;
+}
+
+.maincontainer {
+    height: 900px;
+    position: relative;
+    margin: 20px;
+}
+
+.main {
+    background-color: #272727;
+    margin: 0;
+    padding: -1px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);   
+    width: 700px;
+    height: 100%;
+    border: 1px solid #323232;
+    border-radius: 8px;
+    color: #F6F6F6;
+    font-family: 'DM Sans', sans-serif;
+    box-shadow: 4px 4px 8px black;
+}
+
+.leftbar {
+    width: 30%;
+    float: left;
+    height: 880px;
+    background-color: #212121;
+    border-top-left-radius: 8px;
+    border-right: 1px solid #333;
+}
+
+.footer {
+    width: 700px;
+    float: left;
+    height: 20px;
+    background-color: #212121;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    margin-top: -8px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.content {
+    width: 471px;
+    height: 880px;
+    margin-left: 30%;
+    padding-left: 10px;
+    color: #F6F6F6;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+}
+
+.picture {
+    padding-top: 10px;
+    text-align: center;
+}
+
+.skillslabel {
+    margin: 0;
+    font-size: 22px;
+
+}
+
+.name {
+    margin: 0;
+    font-size: 28px;
+}
+
+.skilllist {
+    text-align: center;
+}
+
+#skill {
+    display:inline;
+    font-size: 11px !important;
+    background: #373737;
+    padding: 1px;
+    border-radius: 4px;
+    line-height: 25px;
+}
+  
+#skill:hover {
+    background-color: #373737;
+}
+  
+#skill-stronger {
+    display:inline;
+    font-size: 13px !important;
+    background: #373737;
+    padding: 2px;
+    border-radius: 5px;
+    line-height: 30px;
+}
+  
+#skill-stronger:hover {
+    background-color: #2D2D2D;
+}
+
+.header1 {
+    width: 185px;
+    text-align: center;
+    background-color: #212121;
+    color: #F6F6F6;
+    border-radius: 3px;
+}
+
+.job {
+    width: 100%;
+    background-color: #373737;
+    color: #F6F6F6;
+    border-radius: 3px;
+    box-shadow: 1px 1px 2px black;
+}
+
+.company {
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+.role {
+    font-style: italic;
+    margin-bottom: -15px;
+    margin-left: 5px;
+}
+.daterange {
+    text-align: right;
+    margin-top: -23px;
+}
+
+.history {
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 5px;
+    margin-top: -15px;
+}
+
+.duties {
+    padding-bottom: 8px;
+    font-size: 14px;
+}
+
+.spidermail:after {
+    content: attr(data-name) "@" attr(data-domain) "." attr(data-tld);
+  }
+.spidermail{
+      font-size: 14px !important;
+      font-weight: bold;
+      color: #708090;
+      text-decoration: none;
+}
